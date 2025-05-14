@@ -7,7 +7,6 @@ namespace BloodShadow.Unity.GameCore.LevelSwitcher
     using BloodShadow.Core.Operations;
     using BloodShadow.GameCore.LevelSwitcher;
     using BloodShadow.Unity.Core.Operations;
-    using System.Collections.Generic;
     using System.Linq;
 
     public class DefaultLevelSwitcher : LevelSwitcher
