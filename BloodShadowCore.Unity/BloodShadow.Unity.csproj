@@ -28,7 +28,6 @@
 
   <ItemGroup>
     <Folder Include="GameCore\LevelSwitcher\" />
-    <Folder Include="GameCore\UI\" />
   </ItemGroup>
 
 </Project>
