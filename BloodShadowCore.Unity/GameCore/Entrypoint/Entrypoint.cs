@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace BloodShadow.Unity.GameCore.Entrypoint
 {
-    public abstract class EntrypointProvider<T> : MonoBehaviour, IEntrypoint where T : EnterParams
+    public abstract class Entrypoint<T> : MonoBehaviour, IEntrypoint where T : EnterParams
     {
         public Observable<ExitParams> Run(EnterParams enterParams)
         {
